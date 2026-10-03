@@ -1,0 +1,25 @@
+== git repo test
+fatal: detected dubious ownership in repository at '/storage/emulated/0/node-demo'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /storage/emulated/0/node-demo
+== installing nodejs
+Get:4 https://mirror.mwt.me/termux/main stable/main aarch64 libsqlite aarch64 3.53.4 [760 kB]
+Get:5 https://mirror.mwt.me/termux/main stable/main aarch64 nodejs aarch64 26.4.0-1 [10.3 MB]
+Get:6 https://mirror.mwt.me/termux/main stable/main aarch64 npm all 11.19.1 [2025 kB]
+Setting up nodejs (26.4.0-1) ...
+
+node: v26.4.0  npm: 11.19.1
+== running app.js
+server listening on http://127.0.0.1:3000
+response: {
+  hello: 'from MVS-CODE terminal',
+  node: 'v26.4.0',
+  arch: 'arm64',
+  platform: 'android',
+  cwd: '/storage/emulated/0/node-demo',
+  files: 6
+}
+host: localhost | cpus: 0 | mem: 8GB
+server closed, exiting
+node exit=0
